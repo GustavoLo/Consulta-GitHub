@@ -1,0 +1,26 @@
+img {
+	max-width: 100%;
+}
+
+.hover-secondary:hover {
+    background-color: #dae0e5;
+}
+
+.btn-md-block {
+	display: block !important;
+}
+
+/*Medium devices (Bootstrap Grid)*/
+@media (min-width: 768px) {
+	.btn-md-block {
+		display: inline-block !important;
+	}
+}
+
+/*Extra Small devices (Bootstrap Grid)*/
+@media (max-width: 575px) {
+	.avatar-block {
+		max-width: 350px;
+		margin: auto;
+	}
+}
